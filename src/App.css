@@ -1,0 +1,13 @@
+.container-popular-new {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media(min-width:769px) {
+    .container-popular-new {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}

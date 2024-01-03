@@ -1,0 +1,39 @@
+.news {
+    background: var(--primary-color);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.news h2 {
+    color: var(--text-secondary-color);
+}
+
+.news ul {
+    list-style: none;
+
+
+}
+
+.news ul h3 {
+    list-style: none;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+
+}
+
+.news ul p {
+    color: #ffffff93;
+    font-size: var(--font-size-primary);
+    width: 30ch;
+    margin-bottom: 20px;
+}
+
+.news ul li {
+    margin-top: 30px;
+
+}
+
+.news ul li:not(:last-child) {
+    margin-top: 30px;
+    border-bottom: 1px solid #ffffff19;
+}
